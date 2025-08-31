@@ -2,253 +2,379 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modern Website - Home</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Needk'dna Cuidando La Piel Tatuada</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!--
+    
+
+-->
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>Neekdna</h2>
-            </div>
-            <ul class="nav-menu" id="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link active">Producto</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Contacto</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Novedades</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link">Comprar</a>
-                </li>
-            </ul>
-            <div class="hamburger" id="hamburger">
-                <span class="bar">Producto</span>
-                <span class="bar">Contacto</span>
-                <span class="bar">Nosotros</span>
-                <span class="bar">Novedades</span>
-                <span class="bar">Comprar</span>
-            </div>
-        </div>
-    </nav>
 
-    <!-- Hero Carousel Section -->
-    <section class="hero-carousel">
-        <div class="carousel-container">
-            <div class="carousel-slides">
-                <div class="slide active">
-                    <div class="slide-image"
-                        style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/placeholder.svg?height=600&width=1200')">
-                    </div>
-                    <div class="slide-content">
-                        <div class="container">
-                            <h1 class="slide-title">Título Landing 1</h1>
-                            <p class="slide-subtitle">Discover innovative solutions that will revolutionize your
-                                workflow and boost productivity</p>
-                            <button class="cta-button">Get Started Now</button>
-                        </div>
-                    </div>
-                </div>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
 
-                <div class="slide">
-                    <div class="slide-image"
-                        style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/placeholder.svg?height=600&width=1200')">
-                    </div>
-                    <div class="slide-content">
-                        <div class="container">
-                            <h1 class="slide-title">Título Landing 2</h1>
-                            <p class="slide-subtitle">Experience cutting-edge technology designed to meet your evolving
-                                business needs</p>
-                            <button class="cta-button">Learn More</button>
-                        </div>
-                    </div>
-                </div>
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                <img src="assets/img/logo.png" alt="Logo" width="53" height="59">
+            </a>
 
-                <div class="slide">
-                    <div class="slide-image"
-                        style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/placeholder.svg?height=600&width=1200')">
-                    </div>
-                    <div class="slide-content">
-                        <div class="container">
-                            <h1 class="slide-title">Título Landing 3</h1>
-                            <p class="slide-subtitle">Be part of a growing community that trusts our solutions for their
-                                success</p>
-                            <button class="cta-button">Start Free Trial</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <!-- Navigation arrows -->
-            <button class="carousel-nav prev" id="prevBtn">&#8249;</button>
-            <button class="carousel-nav next" id="nextBtn">&#8250;</button>
-
-            <!-- Dots indicator -->
-            <div class="carousel-dots">
-                <span class="dot active" data-slide="0"></span>
-                <span class="dot" data-slide="1"></span>
-                <span class="dot" data-slide="2"></span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features">
-        <div class="container">
-            <h2 class="section-title">Embajadores (carrusel)</h2>
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon"></div>
-                    <h3>Testimonios / Portafolio / Redes Sociales</h3>
-                    <p>Descripción</p>
-                </div>
-            </div>
-            <div class="centered-section">
-                <h2 class="section-title-centered">¿Qué es Neek'dna?</h2>
-                <p class="section-copy-text">Neek'dna es una plataforma innovadora que conecta a empresas con soluciones
-                    tecnológicas avanzadas,
-                    facilitando la transformación digital y el crecimiento sostenible.</p>
-            </div>
-        </div>
-    </section>
-    <!-- 
- Stats Section
-    <section class="stats">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <h3>1000+</h3>
-                    <p>Happy Customers</p>
-                </div>
-                <div class="stat-item">
-                    <h3>50+</h3>
-                    <p>Products</p>
-                </div>
-                <div class="stat-item">
-                    <h3>24/7</h3>
-                    <p>Support</p>
-                </div>
-                <div class="stat-item">
-                    <h3>99%</h3>
-                    <p>Satisfaction</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-CTA Section
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to get started?</h2>
-                <p>Join thousands of satisfied customers who trust our solutions</p>
-                <button class="cta-button secondary">Contact Us</button>
-            </div>
-        </div>
-    </section> -->
-    <!-- Elfsight TikTok Feed | Untitled TikTok Feed -->
-    <script src="https://static.elfsight.com/platform/platform.js" async></script>
-    <div class="elfsight-app-4a3edbd0-35e6-4775-9037-ffad3c7bf535" data-elfsight-app-lazy></div>
-    <!-- End Elfsight TikTok Feed | Untitled TikTok Feed -->
-    <!-- Begin Mailchimp Signup Form -->
-    <div id="mc_embed_signup" class="container">
-        <form action="https://neekdna.us1.list-manage.com/subscribe/post?u=c49c696187df6946fdcd439f9&amp;id=dcb0e9b608"
-            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-            target="_blank" novalidate>
-            <div id="mc_embed_signup_scroll">
-                <!-- <h2>Suscríbete en la lista de mailing Neek'dna para recibir noticias y promociones</h2> -->
-                <div class="indicates-required"><span class="asterisk">*</span> campo requerido</div>
-                <div class="mc-field-group">
-                    <label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span>
-                    </label>
-                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                </div>
-                <div class="mc-field-group">
-                    <label for="mce-FNAME">Nombre(s) </label>
-                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
-                </div>
-                <div class="mc-field-group">
-                    <label for="mce-LNAME">Apellido paterno</label>
-                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
-                </div>
-                <div class="mc-field-group size1of2">
-                    <label for="mce-BIRTHDAY-month">Fecha de cumpleaños </label>
-                    <div class="datefield">
-                        <span class="subfield monthfield"><input class="birthday " type="text" pattern="[0-9]*" value=""
-                                placeholder="MM" size="2" maxlength="2" name="BIRTHDAY[month]"
-                                id="mce-BIRTHDAY-month"></span> /
-                        <span class="subfield dayfield"><input class="birthday " type="text" pattern="[0-9]*" value=""
-                                placeholder="DD" size="2" maxlength="2" name="BIRTHDAY[day]"
-                                id="mce-BIRTHDAY-day"></span>
-                        <span class="small-meta nowrap">( mm / dd )</span>
-                    </div>
-                </div>
-                <div id="mce-responses" class="clear">
-                    <div class="response" id="mce-error-response" style="display:none"></div>
-                    <div class="response" id="mce-success-response" style="display:none"></div>
-                </div>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                        name="b_c49c696187df6946fdcd439f9_dcb0e9b608" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Suscribir" name="subscribe" id="mc-embedded-subscribe"
-                        class="button"></div>
-                <p>Al dar click en "SUSCRIBIR" estás aceptando nuestros términos de uso y aviso de privacidad</p>
-            </div>
-        </form>
-    </div>
-    <!-- End Mailchimp Signup Form -->
-
-
-    <!-- Footer -->
-    <footer>
-        <div class="container footer-bottom">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Neekdna</h3>
-                    <p>Social Links</p>
-                </div>
-                <div class="footer-section">
-
-                    <ul>
-                        <li><a href="index.html">Contácto</a></li>
-                        <li><a href="products.html">Aviso de Privacidad</a></li>
-                        <li><a href="about.html">Términos y Condiciones</a></li>
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between"
+                id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="ms-auto nav navbar-nav d-flex justify-content-end gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Novedades</a>
+                        </li>
                     </ul>
                 </div>
-                <div class="footer-section">
-                    <h4>Contact Info</h4>
-                    <p>Email: info@Neekdna.com</p>
-                    <p>Teléfono: +52 (555) 1234567</p>
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fab fa-fw fa-whatsapp fa-2xl text-white large-icons ms-3"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#">
+                        <i class="fa fa-fw fa-cart-plus fa-2xl text-white large-icons ms-3"></i>
+                    </a>
                 </div>
             </div>
-            <div>
-                <p>&copy; 2025 Neekdna.</p>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Start Banner Hero -->
+    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1">Piercing Aftercare una mezcla calmante y humectante.</h1>
+                                <h3>Usa productos diseñados para sanar, no para irritar.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Piercing Aftercare una mezcla calmante y humectante.</h1>
+                                <h3>Usa productos diseñados para sanar, no para irritar.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="./assets/img/banner_img_02.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Piercing Aftercare una mezcla calmante y humectante.</h1>
+                                <h3>Usa productos diseñados para sanar, no para irritar.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel"
+            role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel"
+            role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start ¿Qué es Neek’dna? -->
+    <section class="container py-5">
+        <div class="row text-center py-5">
+            <div class="col-lg-8 m-auto">
+                <h1 class="h2">¿Qué es Neek’dna?</h1>
+                <p class="gray-text">
+                    Pasión por el arte corporal, respeto por tu piel.<br>
+                    Nuestro compromiso es acompañarte antes, durante y
+                    después.
+                </p>
+            </div>
+        </div>
+        <div class="row text-center py-5">
+            <div class="col-lg-8 m-auto mb-5">
+                <h1 class="h2">Nuestros Embajadores</h1>
+                <p class="gray-text">
+                    Ellos usan, recomiendan y confían en Neek’dna porque han comprobado su eficacia y compromiso.
+                </p>
+            </div>
+
+            <div class="col-lg-12 m-auto tempaltemo-carousel">
+                <div class="row d-flex flex-row">
+                    <!--Controls-->
+                    <div class="col-1 align-self-center">
+                        <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
+                            <i class="text-light fas fa-chevron-left"></i>
+                        </a>
+                    </div>
+                    <!--End Controls-->
+
+                    <!--Carousel Wrapper-->
+                    <div class="col">
+                        <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="templatemo-slide-brand"
+                            data-bs-ride="carousel">
+                            <!--Slides-->
+                            <div class="product-links-wap" role="listbox">
+
+                                <!--First slide-->
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 1.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 2.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 3.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 4.png" alt="Brand Logo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End First slide-->
+
+                                <!--Second slide-->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 1.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 2.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 3.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 4.png" alt="Brand Logo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Second slide-->
+
+                                <!--Third slide-->
+                                <div class="carousel-item">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 1.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 2.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 3.png" alt="Brand Logo">
+                                        </div>
+                                        <div class="col-3">
+                                            <img class="amb-img" src="assets/img/embajador 4.png" alt="Brand Logo">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--End Third slide-->
+
+                            </div>
+                            <!--End Slides-->
+                        </div>
+                    </div>
+                    <!--End Carousel Wrapper-->
+
+                    <!--Controls-->
+                    <div class="col-1 align-self-center">
+                        <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
+                            <i class="text-light fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+                    <!--End Controls-->
+                </div>
+            </div>
+        </div>
+        <div class="row text-center py-5">
+            <div class="col-lg-11 m-auto mb-5">
+                <h1 class="h2">Síguenos en TikTok</h1>
+                <p class="gray-text">
+                    Nuestra comunidad está formada por personas que valoran su cuerpo como un lienzo
+                </p>
+            </div>
+        </div>
+        <div class="row text-center py-5">
+            <div class="col-lg-11 m-auto mb-5">
+                <!-- Elfsight TikTok Feed | Untitled TikTok Feed -->
+                <script src="https://static.elfsight.com/platform/platform.js" async></script>
+                <div class="elfsight-app-4a3edbd0-35e6-4775-9037-ffad3c7bf535" data-elfsight-app-lazy></div>
+                <!-- End Elfsight TikTok Feed | Untitled TikTok Feed -->
+            </div>
+        </div>
+
+        <div class="row text-center py-5">
+            <div class="col-lg-8 m-auto mb-5">
+                <h1 class="h2">¡Te queremos conocer!</h1>
+                <h2 class="text-orange">Contacto</h2>
+                <p class="gray-text">
+                    Suscribete a nuestro Mail List
+                </p>
+                <!-- Begin Mailchimp Signup Form -->
+                <div id="mc_embed_signup" class="container">
+                    <form
+                        action="https://neekdna.us1.list-manage.com/subscribe/post?u=c49c696187df6946fdcd439f9&amp;id=dcb0e9b608"
+                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
+                        target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                            <!-- <h2>Suscríbete en la lista de mailing Neek'dna para recibir noticias y promociones</h2> -->
+                            <div class="indicates-required"><span class="asterisk">*</span> campo requerido</div>
+                            <div class="mc-field-group">
+                                <label for="mce-EMAIL">Correo electrónico <span class="asterisk">*</span>
+                                </label>
+                                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-FNAME">Nombre(s) </label>
+                                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+                            </div>
+                            <div class="mc-field-group">
+                                <label for="mce-LNAME">Apellido paterno</label>
+                                <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
+                            </div>
+                            <div class="mc-field-group size1of2">
+                                <label for="mce-BIRTHDAY-month">Fecha de cumpleaños </label>
+                                <div class="datefield">
+                                    <span class="subfield monthfield"><input class="birthday " type="text"
+                                            pattern="[0-9]*" value="" placeholder="MM" size="2" maxlength="2"
+                                            name="BIRTHDAY[month]" id="mce-BIRTHDAY-month"></span> /
+                                    <span class="subfield dayfield"><input class="birthday " type="text"
+                                            pattern="[0-9]*" value="" placeholder="DD" size="2" maxlength="2"
+                                            name="BIRTHDAY[day]" id="mce-BIRTHDAY-day"></span>
+                                    <span class="small-meta nowrap">( mm / dd )</span>
+                                </div>
+                            </div>
+                            <div id="mce-responses" class="clear">
+                                <div class="response" id="mce-error-response" style="display:none"></div>
+                                <div class="response" id="mce-success-response" style="display:none"></div>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                        name="b_c49c696187df6946fdcd439f9_dcb0e9b608" tabindex="-1" value=""></div>
+                                <div class="clear"><input type="submit" value="Suscribir" name="subscribe"
+                                        id="mc-embedded-subscribe" class="button"></div>
+                                <p>Al dar click en "SUSCRIBIR" estás aceptando nuestros términos de uso y aviso de
+                                    privacidad
+                                </p>
+                            </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Mailchimp Signup Form -->
+    </section>
+    <!-- End Categories of The Month -->
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer">
+        <div class="container py-5">
+            <div class="row text-light ">
+                <div class="col-auto m-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i
+                                    class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank"
+                                href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i
+                                    class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank"
+                                href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row text-light">
+                <div class="col-12 col-lg-8 mx-auto text-center">
+                    <p class="mb-0">&copy; 2025 Neek'dna. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
     </footer>
+    <!-- End Footer -->
 
-    <script src="script.js"></script>
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-        #mc_embed_signup {
-            background: #fff;
-            clear: left;
-            font: 14px Helvetica, Arial, sans-serif;
-        }
-
-        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-					We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
 </body>
 
 </html>

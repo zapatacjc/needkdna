@@ -1,0 +1,60 @@
+/*
+Custom Css
+*/
+
+@font-face {
+    font-family: 'Open Sans Hebrew';
+    src: url('..webfonts/open-sans-hebrew-bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+.navbar{
+    background-color: #000000 !important;
+    color: #000000 !important;
+    height: 94px;
+}
+.nav-link{
+    color: #ffffff !important;
+    font-size: 20px !important;
+}
+.text-white{
+    color: #ffffff !important;
+}
+.large-icons{
+    font-size: 42px;
+    width: 42px;
+    height: 42px;
+}
+#template-mo-zay-hero-carousel .carousel-indicators li {
+    margin-top: -50px;
+    background-color: #000000;
+    height: 29px;
+    width: 29px;
+    border-radius: 50%;
+    margin-left: 29px;
+}
+#template-mo-zay-hero-carousel .carousel-control-next i, #template-mo-zay-hero-carousel .carousel-control-prev i {
+    color: #000000 !important;
+    font-size: 2.8em !important;
+}
+.carousel-inner {
+    min-height: 786px;
+}
+.carousel-indicators{
+    margin-bottom: 5rem;
+}
+/* Pasión por el arte corporal, respeto por tu piel.Nuestro compromiso es acompañarte antes, durante y después. */
+.gray-text{
+    color: rgb(64 64 64);
+}
+.amb-img{
+    transition: .5s;
+    height: auto;
+    max-width: 100%;
+}
+#eapps-tiktok-feed-4a3edbd0-35e6-4775-9037-ffad3c7bf535 > div > div > div > div.WidgetBackground__Content-sc-1ho7q3r-2.jkIBsh.WidgetBackground__ContentContainer-sc > a{    display: none;
+    display: none !important;
+}
+.bg-dark{
+    background-color: #000000 !important;
+}
