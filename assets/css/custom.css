@@ -58,3 +58,21 @@ Custom Css
 .bg-dark{
     background-color: #000000 !important;
 }
+.mailchimp-submit{
+    background-color: #000000 !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+    width: 100% !important;
+    padding: 10px !important;
+}
+.mc-field-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.form-label{
+    font-size: 24px ;
+}
+.datefield{
+    width: 100% !important;
+}
