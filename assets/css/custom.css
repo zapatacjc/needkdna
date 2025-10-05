@@ -76,3 +76,30 @@ Custom Css
 .datefield{
     width: 100% !important;
 }
+
+.carousel-img-aftercare{
+    background-image: url('../img/banners/aftercare.png');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px)
+}
+
+.carousel-img-piercing{
+    background-image: url('../img/banners/piercing.png');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px)
+}
+
+.carousel-img-protect{
+    background-image: url('../img/banners/protect.png');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px)
+}
+.carousel-img-skincare{
+    background-image: url('../img/banners/skincare.png');
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px)
+}
