@@ -103,3 +103,29 @@ Custom Css
     background-position: center;
     backdrop-filter: blur(10px)
 }
+.product-title {
+    font-size: 36px;
+    font-weight: 700;
+}
+.row-product{
+    margin-bottom: 180px;
+}
+.lines-title{
+    padding-bottom: 170px;
+    padding-top: 145px;
+}
+.product-subtitle {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 1rem;
+    text-align: center;
+}
+.button-product {
+    padding: 3px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+.product-button-container {
+    display: flex;
+    justify-content: center;
+}
