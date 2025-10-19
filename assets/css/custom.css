@@ -217,8 +217,11 @@ section {
     margin: 0 auto;
     padding: 0 20px;
     background-color: transparent;
-
 }
+.container-fluid {
+    background-color: transparent;
+}
+
 body {
   background-image: url("../img/back.png");
   background-repeat: repeat-x;
@@ -232,6 +235,9 @@ body {
     margin-bottom: 60px;
 }
 
+.row-more-products {
+    align-items: self-end;
+}
 .carousel {
     display: block;
     text-align: left;
@@ -360,6 +366,7 @@ body {
     position: relative;
     margin-bottom: 22px;
     width: 100%;
+    align-items: center;
     
     > input {
         clip: rect(1px, 1px, 1px, 1px);
