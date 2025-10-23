@@ -18,6 +18,7 @@ Custom Css
     color: #ffffff !important;
     font-size: 20px !important;
 }
+
 .text-white{
     color: #ffffff !important;
 }
@@ -26,6 +27,15 @@ Custom Css
     width: 42px;
     height: 42px;
 }
+.navbar-collapse {
+    background: black;
+    z-index: 1;
+    padding: 10px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='4' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
 #template-mo-zay-hero-carousel .carousel-indicators li {
     margin-top: -50px;
     background-color: #000000;
@@ -33,14 +43,14 @@ Custom Css
     width: 29px;
     border-radius: 50%;
     margin-left: 29px;
+    display: none;
 }
 #template-mo-zay-hero-carousel .carousel-control-next i, #template-mo-zay-hero-carousel .carousel-control-prev i {
     color: #000000 !important;
     font-size: 2.8em !important;
+    display: none;
 }
-.carousel-inner {
-    min-height: 786px;
-}
+
 .carousel-indicators{
     margin-bottom: 5rem;
 }
