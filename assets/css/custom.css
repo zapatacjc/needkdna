@@ -12,7 +12,6 @@ Custom Css
 .navbar{
     background-color: #000000 !important;
     color: #000000 !important;
-    height: 94px;
 }
 .nav-link{
     color: #ffffff !important;
@@ -29,7 +28,7 @@ Custom Css
 }
 .navbar-collapse {
     background: black;
-    z-index: 1;
+    z-index: 2;
     padding: 10px;
 }
 
@@ -544,3 +543,21 @@ body {
         object-fit: cover;
     }
 }
+
+@media (max-width: 991.98px) {
+    /* CSS rules for screens smaller than 992px */
+   .row-product {
+    margin-bottom: 0px;
+    margin-top:0px;
+   }
+   .product-title {
+    margin-top: 50px;
+    font-size: 30px;
+   }
+   .recommendations-carousel__thumbnails {
+    li {
+        width: 40px;
+        height: 40px;
+    }
+}
+  }
