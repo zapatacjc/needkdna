@@ -53,9 +53,18 @@ Custom Css
 .carousel-indicators{
     margin-bottom: 5rem;
 }
-/* Pasión por el arte corporal, respeto por tu piel.Nuestro compromiso es acompañarte antes, durante y después. */
+
+.landing-title{
+    font-size: 36px;
+}
+
 .gray-text{
     color: rgb(64 64 64);
+    font-size: 22px;
+}
+
+.text-footer {
+    font-size: 24px
 }
 .amb-img{
     transition: .5s;
@@ -132,8 +141,7 @@ Custom Css
     margin-bottom: 180px;
 }
 .lines-title{
-    padding-bottom: 170px;
-    padding-top: 145px;
+    padding-top: 80px;
 }
 .product-subtitle {
     font-size: 14px;
@@ -218,7 +226,7 @@ Custom Css
     border-left: 0px;
     border-bottom: 0px;
     background: #f1f1f1;
-    font-size: 8px;
+    font-size: 15px;
     padding: 30px 0px;
     border-radius: 0px 0px 30px 30px;
     
@@ -242,6 +250,11 @@ Custom Css
 
 .guarantee-title {
     font-size: 42px !important;
+}
+
+.guarantee-img{
+    max-width: 70%;
+    margin: auto;
 }
 
 @mixin aspect-ratio($width, $height) {
@@ -551,7 +564,7 @@ body {
     margin-top:0px;
    }
    .product-title {
-    margin-top: 50px;
+    margin-top: 30px;
     font-size: 30px;
    }
    .recommendations-carousel__thumbnails {
