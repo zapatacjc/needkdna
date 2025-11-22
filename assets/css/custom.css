@@ -134,7 +134,7 @@ Custom Css
     font-weight: 700;
 }
 .blog-copy {
-    font-size: 24px;
+    font-size: 17px;
     color: #828282;
 }
 .row-product{
@@ -194,7 +194,9 @@ Custom Css
 
 .icon-subtitle {
     color: #000000;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1rem;
 }
 
 .iframe-container {
