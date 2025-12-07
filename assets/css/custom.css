@@ -66,6 +66,10 @@ Custom Css
 .text-footer {
     font-size: 24px
 }
+.text-tos {
+    font-size: 16px;
+    text-decoration: none;
+}
 .amb-img{
     transition: .5s;
     height: auto;
