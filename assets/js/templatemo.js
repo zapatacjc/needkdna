@@ -24,11 +24,11 @@ $(document).ready(function() {
     // End accordion
 
     // Product detail
-    $('.product-links-wap a').click(function(){
-      var this_src = $(this).children('img').attr('src');
-      $('#product-detail').attr('src',this_src);
-      return false;
-    });
+    // $('.product-links-wap a').click(function(){
+    //   var this_src = $(this).children('img').attr('src');
+    //   $('#product-detail').attr('src',this_src);
+    //   return false;
+    // });
     $('#btn-minus').click(function(){
       var val = $("#var-value").html();
       val = (val=='1')?val:val-1;
