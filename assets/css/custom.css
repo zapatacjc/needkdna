@@ -249,6 +249,10 @@ Custom Css
     color: #616161;
 }
 
+.product-description{
+    text-align: justify;
+}
+
 .product-details-text {
     font-size: 15px;
     color: #616161;
