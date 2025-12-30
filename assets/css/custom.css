@@ -320,6 +320,7 @@ body {
 .row-more-products {
     align-items: self-end;
 }
+
 .carousel {
     display: block;
     text-align: left;
@@ -577,10 +578,19 @@ body {
     margin-top: 30px;
     font-size: 30px;
    }
-   .recommendations-carousel__thumbnails {
-    li {
-        width: 40px;
-        height: 40px;
+    .recommendations-carousel__thumbnails {
+        li {
+            width: 40px;
+            height: 40px;
+        }
     }
-}
+        .row-more-products{
+        align-items: center !important;
+        flex-direction: column !important;
+        gap: 5px;
+    }
+    .button-product{
+        white-space: nowrap;
+        font-size: 12px;
+    }
   }
